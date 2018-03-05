@@ -4,22 +4,41 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+  <title>UI-Challenge-2</title>
 </head>
 <body>
-  <h1>UI-Challenge - Custom Form Elements</h1>
-  <form action="">
-    <label for="textInput">Text Input</label>
-    <input type="text" name="textInput" id="">
-    <p id="textVal"></p>
-    <label for="selectBox">Select Box</label>
-    <select name="selectBox" id=""></select>
-    <label for="checkBox">Check Box</label>
-    <input type="checkbox" name="checkBox" id="">
-    <label for="radio">Radio</label>
-    <input type="radio" name="radio" id="">
-    <label for="buttons">Buttons</label>
-    <button>submit</button>
-  </form>
+  <main>
+    <h1>Custom Form Elements</h1>
+    <form action="">
+      <label for="textInput">Text Input</label>
+      <input type="text" name="textInput" id="">
+      <p id="textVal"></p>
+      <label for="selectBox">Select Box</label>
+      <select name="selectBox" id="">
+        <option value=""></option>
+        <option value="">Option 1</option>
+        <option value="">Option 2</option>
+        <option value="">Option 3</option>
+        <option value="">Option 4</option>
+        <option value="">Option 5</option>
+      </select>
+      <label for="checkBox">Check Box</label>
+      <div class="checkbox conatiner">
+        <input type="checkbox" name="checkBox" class="checkboxInput sprite">
+      </div>
+      <label for="radio">Radio</label>
+      <div class="radio conatiner">
+        <input type="radio" name="radio" class="radioInput sprite">
+      </div>
+      <label for="buttons">Buttons</label>
+      <div class="button conatiner">
+        <button>submit</button>
+      </div>
+      <div class="test conatiner">
+      </div>
+    </form>
+  </main>
 </body>
 </html>

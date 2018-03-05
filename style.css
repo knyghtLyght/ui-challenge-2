@@ -1,0 +1,74 @@
+body {
+  width: 480px;
+  margin: auto;
+  font-size: 2em;
+}
+
+main {
+  width: 480px;
+}
+
+form {
+  width: 100%
+}
+
+lable {
+  display: block;
+}
+
+input {
+  display: block;
+  font-size: 1em;
+  width: 100%;
+  height: 100%;
+}
+
+select {
+  display: block;
+  width: 82%;
+  font-size: 1em;
+}
+
+option {
+  background-color: #D8D8D8;
+  color: #656565;
+}
+
+option:nth-child(2n) {
+  background-color: #9B9B9B;
+}
+
+h1 {
+  margin-bottom: 15px;
+}
+
+button {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.conatiner {
+  display: block;
+  background: url(sprites/form-elements-sprite.png);
+  z-index: 1;
+  width: 50px;
+  height: 50px;
+}
+
+.button {
+  width: 100px;
+  background-position: -20px 0px;
+}
+
+.radio {
+  background-position: -20px 0px;
+}
+
+.sprite {
+  display: hidden;
+}
+
+.test {
+  background-position: 159px 252px;
+}
